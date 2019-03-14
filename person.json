@@ -1,10 +1,10 @@
 {
-    "first_name":  "Jonathan Poyti",
-    "last_name": "Stang",
+    "first_name":  "Ralf Laurent",
+    "last_name": "Fajardo",
     "headline": "Fullstack Java-utvikler",
-    "age": 25,
+    "age": 30,
     "qualifications": 
-        ["Java", "Spring","Javascript", "Jquery",
+        ["Java", "Spring","Javascript", "React",
                     "Mysql", "Postgresql"],
     "work_experience": [
         {
@@ -14,28 +14,20 @@
             "from": "Februar 2019",
             "to": "nå",
             "description": "Experis Academys Graduate-program er et 15 måneders program for å introdusere nyutdannede utviklere til konsulentrollen. De første 3 månedene består av teori, casearbeid og sertifisering i Java hos Noroff. De neste 12 jobber han som konsulent for en av Experis Academy sine kunder."
-        },
-        {
-            "title": "Lærervikar",
-            "company": "Nittedal ungdomsskole",
-            "location": "Nittedal, Norway",
-            "from": "November 2019",
-            "to": "Februar 2019",
-            "description": "Ved Nittedal ungdomsskole jobbet Jonathan i 4 måneder som ringevikar. Han stilte her opp på kort varsel og underviste i ulike fag."
         }
     ],
     "education": [
         {
-        "school": "Universitetet i Oslo",
-        "degree": "bachelor",
-        "field_of_study": "Matematikk",
-        "from_year": 2013,
-        "to_year": 2017,
-        "description": "Spesialisering: Dataanalyse. En tverrfaglig grad med emner i matte, programmering og statistikk. Avsluttet med en bacheloroppgave innen statistisk numerisk analyse, utført i R og LaTeX og skrevet på engelsk."
+        "school": "Westerdals Oslo ACT",
+        "degree": "Bachelor",
+        "field_of_study": "Intelligente Systemer",
+        "from_year": 2015,
+        "to_year": 2018,
+        "description": "Spesialisering: IoT. Intelligente systemer fokuserer på hvordan vi kan forenkle og se sammenhenger i gjøremål innen forbrukerteknologi og områder som mobil-betaling, helse, trafikk, sikkerhet og overvåking. Det handler om tingenes internett, mobile løsninger, hvordan maskiner effektivt kan kommunisere med hverandre og hvordan de kan settes opp til å sanse omverdenen. "
         }
     ],
     "links": {
-        "github": "https://github.com/Jonathan-PS",
-        "linkedin": "https://www.linkedin.com/in/jonathanpstang"
+        "github": "https://github.com/fajardoralf",
+        "linkedin": "https://www.linkedin.com/in/fajardoralf"
     }
 }

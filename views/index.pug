@@ -18,6 +18,9 @@ html
                         ul(class="navbar-nav ml-auto")
                             li(class="nav-item active")
                                 a(class="nav-link" href="/") Home
+                            li(class="nav-item active")
+                                a(class="nav-link" href="/data") Data
+                                
                                    
 
 
@@ -25,7 +28,7 @@ html
                 div(class="container h-100")
                     div(class="row h-100 align-items-center")
                         div(class="col-12 text-center")
-                            img(src="jonathan.jpg" alt="..." class="circle profile-pic")
+                            img(src="ralf.jpg" alt="..." class="circle profile-pic")
                             h1(class="font-weight-light text-white")  #{first_name} #{last_name}
                             p(class="lead text-white") #{headline}
                             p(class="lead text-white")
@@ -66,5 +69,5 @@ html
 
 
         block foot
-            footer
-                div(class="footer-copyright text-center") Copyright Jonathan and Ralf 2019
+            footer(class="page-footer font-small bg-dark")
+                div(class="footer-copyright text-center py-3 text-white font-weight-light") &copy; 2019 Jonathan and Ralf 
