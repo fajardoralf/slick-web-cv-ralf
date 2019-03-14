@@ -1,0 +1,28 @@
+.masterhead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.img-thumbnail {
+    border-radius: 50%;
+  }
+
+  .main-div {
+    padding: 100px;
+}
+
+#social-media-icon{
+  width: 20px;
+  height: 20px;
+  margin: 4px;
+}
+
+.profile-pic{
+  width: 30%;
+  max-width: 200px;
+  border-radius: 50%;  
+}
