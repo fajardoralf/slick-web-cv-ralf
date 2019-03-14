@@ -37,10 +37,14 @@ html
                                 a(href=links.github)
                                     img( id="social-media-icon" src="github-icon.png") 
 
+            div(class="col-12 text-center")
+                p()
+                h2(class="font-weight-light") Beskrivelse
+                p(class="font-weight-light") #{description}
 
             div(class="row main-div")                
                 div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Technologies
+                    h2(class="font-weight-light") Teknologi
                 div(class="col-xs-12 col-md-8")
                     each qualif in qualifications
                         li(class="font-weight-light") #{qualif}
@@ -48,7 +52,7 @@ html
 
             div(class="row main-div")                
                 div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Work Experience
+                    h2(class="font-weight-light") Arbeidserfaring
                 div(class="col-xs-12 col-md-8")
                     each experience in work_experience
                         h5(class="font-weight-light") #{experience.title}
@@ -59,7 +63,7 @@ html
 
             div(class="row main-div")                
                 div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Education
+                    h2(class="font-weight-light") Utdanning
                 div(class="col-xs-12 col-md-8")
                     each edu in education
                         h5(class="font-weight-light") #{edu.field_of_study}, #{edu.degree}

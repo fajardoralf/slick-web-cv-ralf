@@ -3,6 +3,7 @@
     "last_name": "Fajardo",
     "headline": "Fullstack Java-utvikler",
     "age": 30,
+    "description":"Ralf Fajardo har en bachelorgrad fra Westerdals Oslo ACT innen intelligente systemer. Ettersom konsulenten har vært interessert i teknologi siden barndommen, gikk han derfor IKT driftsfag på videregående skole. Gjennom Westerdals har Ralf gått gjennom programmeringsspråk som Java, JavaScript, React, C og C++ for å nevne noen. Han har også opparbeidet seg god prosjekterfaring gjennom flere skoleprosjekter og lært seg agile rammeverk som SCRUM. Han liker å jobbe i team og er ikke redd for å bli kjent med nye mennesker.For å holde seg oppdatert på nye teknologier og kunnskap leser Ralf blogger og nettsider som Kode24, Medium og Stackoverflow på fritiden. Han liker også å se på YouTube tutorials og ta kurs gjennom Udemy. Ralf en utadvendt person, målbevisst og  er ikke redd for å prøve nye ting. Han motiverer seg selv ved å tenke at det aller meste er mulig med nok interesse, pågangsmot og et godt team.",
     "qualifications": 
         ["Java", "Spring","Javascript", "React",
                     "Mysql", "Postgresql"],
