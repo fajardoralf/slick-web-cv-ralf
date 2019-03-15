@@ -1,3 +1,7 @@
+body{
+  overflow:hidden;
+}
+
 .masterhead {
     height: 100vh;
     min-height: 500px;
@@ -16,6 +20,7 @@
     z-index: 9999;
     position: absolute;
     width: 100%;
+    
     bottom: 0;
     margin: 0;
 }
