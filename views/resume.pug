@@ -1,6 +1,7 @@
 html
     title #{first_name}'s CV Site
     head
+        meta(name="viewport" content="width=device-width, initial-scale=1")
         block scripts
             link(rel="stylesheet" type="text/css"  href="styles.css")
             link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
@@ -64,6 +65,7 @@ html
                             li(class="font-weight-light") #{lang}
 
 
+         
         block foot
             footer(class="page-footer font-small bg-dark")
-                div(class="footer-copyright text-center py-3 text-white font-weight-light") &copy; 2019 Jonathan and Ralf 
+                div(class="footer-copyright text-center py-3 text-white font-weight-light") &copy; 2019 Jonathan Poyti Stang og Ralf Laurent Fajardo
