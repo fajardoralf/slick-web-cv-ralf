@@ -12,7 +12,7 @@
 
 .fot{
     z-index: 9999;
-    position: absolute;
+    position: absolute !important;
     width: 100%;
 }
 
