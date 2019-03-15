@@ -11,7 +11,7 @@ html
         block content
             nav(class="navbar navbar-expand-lg navbar-dark bg-dark static-top")
                 div(class="container")
-                    a(class="navbar-brand" href="#") #{first_name} #{last_name}'s CV
+                    a(class="navbar-brand" href="/") #{first_name} #{last_name}'s CV
                     button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation")
                         span(class="navbar-toggler-icon")
                     div(class="collapse navbar-collapse" id="navbarResponsive")
@@ -19,11 +19,12 @@ html
                             li(class="nav-item active")
                                 a(class="nav-link" href="/") Home
                             li(class="nav-item active")
+                                a(class="nav-link" href="/resume") Resume    
+                            li(class="nav-item active")
                                 a(class="nav-link" href="/data") Data
                                 
                                    
-
-
+            .background
             header(class="masterhead")
                 div(class="container h-100")
                     div(class="row h-100 align-items-center")
@@ -35,43 +36,11 @@ html
                                 a(href=links.linkedin)
                                     img( id="social-media-icon" src="linkedin-icon.png") 
                                 a(href=links.github)
-                                    img( id="social-media-icon" src="github-icon.png") 
-
-            div(class="col-12 text-center")
-                p()
-                h2(class="font-weight-light") Beskrivelse
-                p(class="font-weight-light") #{description}
-
-            div(class="row main-div")                
-                div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Teknologi
-                div(class="col-xs-12 col-md-8")
-                    each qualif in qualifications
-                        li(class="font-weight-light") #{qualif}
-
-
-            div(class="row main-div")                
-                div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Arbeidserfaring
-                div(class="col-xs-12 col-md-8")
-                    each experience in work_experience
-                        h5(class="font-weight-light") #{experience.title}
-                        p(class="font-weight-heavy") #{experience.company}, #{experience.location}, #{experience.from} - #{experience.to}
-                        p(class="font-weight-light") #{experience.description}
-                        br()
-
-
-            div(class="row main-div")                
-                div(class="col-xs-6 col-md-4 font-weight-light") 
-                    h2(class="font-weight-light") Utdanning
-                div(class="col-xs-12 col-md-8")
-                    each edu in education
-                        h5(class="font-weight-light") #{edu.field_of_study}, #{edu.degree}
-                        p(class="font-weight-heavy") #{edu.school}, #{edu.from_year} - #{edu.to_year}
-                        p(class="font-weight-light") #{edu.description}
-                        br()
+                                    img( id="social-media-icon" src="github-icon.png")
+                                    p() 
+                                a(class="btn btn-info" href="/resume") Resume
 
 
         block foot
-            footer(class="page-footer font-small bg-dark")
+            footer(class="fot page-footer font-small bg-dark")
                 div(class="footer-copyright text-center py-3 text-white font-weight-light") &copy; 2019 Jonathan and Ralf 

@@ -23,4 +23,8 @@ app.get('/', (req, res) => {
    res.render('index', data)
 });
 
+app.get('/resume', (req, res) => {
+   res.render('resume', data)
+});
+
 app.listen(process.env.PORT || port)
