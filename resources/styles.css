@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-.static-top{
+.navbar{
   z-index: 9999;
 }
 
@@ -16,6 +16,8 @@
     z-index: 9999;
     position: absolute;
     width: 100%;
+    bottom: 0;
+    margin: 0;
 }
 
 .background{
@@ -27,7 +29,11 @@
     background-size: cover;
     filter: blur(2px);
     -webkit-filter: blur(2px);
-    transform: scale(1.1); 
+    overflow: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; 
 }
 
 .img-thumbnail {
